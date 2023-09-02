@@ -11,7 +11,14 @@
   background-repeat: no-repeat;
   background-position: 83%;
   color: #ffffff;
-  display: flex; }
+  display: flex;
+  justify-content: center; }
+
+.hamburguer {
+  display: flex;
+  flex-direction: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start; }
 
 .container {
   display: flex;
@@ -19,23 +26,34 @@
   justify-content: center;
   align-items: center; }
 
-h1 {
+.title {
   text-transform: uppercase;
-  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
-  padding-bottom: 10px; }
+  flex-direction: column;
+  word-spacing: 100vw;
+  margin-left: 25%;
+  margin-right: 25%;
+  line-height: 1.5;
+  margin-top: 25vh; }
 
-p {
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15px; }
+
+.text2 {
   font-size: 15px;
   display: flex;
   justify-content: center;
-  margin-left: 30px;
-  margin-right: 30px; }
+  margin-left: 15%;
+  margin-right: 25%;
+  text-transform: lowercase; }
 
-p:first-letter {
+.text2::first-letter {
   text-transform: uppercase; }
 
 .main {
@@ -71,23 +89,47 @@ button {
   width: 100px;
   height: 50px;
   border-radius: 50%;
-  margin-left: -200px; }
+  margin-left: -20vh; }
 
 .content__grid {
   background-color: #d9e4cc;
   display: grid;
-  grid-template-columns: 1fr;
-  height: 400px; }
-
-.title {
-  color: #626262; }
+  grid-template-columns: 1fr; }
 
 .title1 {
+  color: #626262; }
+
+.title2 {
   text-transform: uppercase; }
 
-btn-2 {
+.btn-2 {
   width: 100px;
   height: 50px;
   border-radius: 50%; }
+
+footer {
+  background-color: #4a4a4a;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 40px; }
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-transform: uppercase;
+  color: white;
+  line-height: 2; }
+
+.copy {
+  color: white;
+  margin-top: 30px; }
+
+.love {
+  color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */

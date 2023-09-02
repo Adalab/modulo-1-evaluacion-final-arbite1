@@ -60,19 +60,23 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  background-color: #d9e4cc; }
 
 h3 {
   text-transform: uppercase;
   font-size: 15px;
   margin-top: 20px;
-  color: #6c933e; }
+  color: #6c933e;
+  background-color: #ffffff; }
 
 .article {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  background-color: white;
+  padding: 1rem; }
 
 h2 {
   text-transform: uppercase;
@@ -88,24 +92,64 @@ h2 {
 button {
   width: 100px;
   height: 50px;
-  border-radius: 50%;
-  margin-left: -20vh; }
+  border-radius: 40%;
+  margin-left: -17vh;
+  background-color: white;
+  color: #6c933e;
+  border-color: #6c933e; }
+
+button::first-letter {
+  text-transform: uppercase; }
 
 .content__grid {
   background-color: #d9e4cc;
   display: grid;
-  grid-template-columns: 1fr; }
+  grid-template-areas: "box1" "pbox1" "box2" "pbox2" "box3" "pbox3";
+  width: 100vw; }
+
+.box1 {
+  width: 9.4rem;
+  height: 8.75rem;
+  border-radius: 50%; }
+
+.pbox1 {
+  text-align: center;
+  padding-bottom: 1.5rem; }
+
+.box2 {
+  width: 9.4rem;
+  height: 8.75rem;
+  border-radius: 50%; }
+
+.pbox2 {
+  text-align: center;
+  padding-bottom: 1.5rem; }
+
+.box3 {
+  width: 9.4rem;
+  height: 8.75rem;
+  border-radius: 50%; }
+
+.pbox3 {
+  text-align: center;
+  padding-bottom: 1.5rem; }
 
 .title1 {
-  color: #626262; }
+  color: #626262;
+  text-transform: none; }
 
 .title2 {
   text-transform: uppercase; }
 
+.btn {
+  background-color: #d9e4cc; }
+
 .btn-2 {
   width: 100px;
   height: 50px;
-  border-radius: 50%; }
+  border-radius: 50%;
+  background-color: #6c933e;
+  color: #ffffff; }
 
 footer {
   background-color: #4a4a4a;
@@ -127,9 +171,19 @@ ul {
 
 .copy {
   color: white;
-  margin-top: 30px; }
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2; }
 
 .love {
-  color: #ffffff; }
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem; }
 
 /*# sourceMappingURL=main.css.map */

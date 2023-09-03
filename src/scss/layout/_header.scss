@@ -1,5 +1,62 @@
-.page__header {
+.header{
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
-}
+  justify-content: center;
+  font-family: 'Roboto Slab', sans-serif;
+  width: auto;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: 83%;
+  color: #ffffff;
+  background-size: cover; 
+
+  .header__container{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center; 
+  }
+    &__header__imgcover{ 
+      background-image: url(../images/cover.jpeg)
+    }
+  .text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction:column; 
+      font-size: 15px;   
+    }
+    &__.title{
+      text-transform: uppercase;  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction:column ; 
+      word-spacing: 100vw; 
+      margin-left: 25%;
+      margin-right: 25%;
+      line-height: 1.5;
+      margin-top: 25vh;
+    }
+    &__.text2{
+      font-size: 15px;
+      display: flex;
+      justify-content: center;
+      margin-left: 15%;
+      margin-right: 25%;
+      text-transform: lowercase;  
+    }
+    &__.text2::first-letter{
+      text-transform: uppercase;
+      }
+    }
+
+
+
+  
+
+
+
+
+
+
+

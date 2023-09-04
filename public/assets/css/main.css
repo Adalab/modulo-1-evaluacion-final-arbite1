@@ -304,9 +304,6 @@
     padding-left: 5.6rem; }
   .grid_pbox3 {
     padding-left: 5.6rem; }
-  .grid__btn {
-    grid-column-start: 2;
-    grid-column-end: 3; }
   .footer {
     display: flex;
     padding-bottom: 7.5rem; }
@@ -348,6 +345,12 @@
     font-size: 1.25rem;
     margin-left: 8.75rem;
     padding-right: 1.75rem; }
+  .grid_pbox1 {
+    padding-left: 1.87rem; }
+  .grid_pbox3 {
+    padding-left: 1.87rem; }
+  .grid_pbox2 {
+    padding-left: 1.87rem; }
   .footer__arrow {
     margin-left: 32.5rem; } }
 

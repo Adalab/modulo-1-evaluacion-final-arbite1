@@ -3,12 +3,7 @@
 # Evaluación final modulo 1
 
 Hoy tengo que realizar la evaluación del primer modulo para ver los conocimientos adquiridos.
-
-
-
-Ahoy! Este es nuestro Starter Kit creado en **node y gulp**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
-
-Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
+Estoy trabajando sobre una plantilla con funcionalidades preinstaladas y preconfiguradas. Contiene plantillas HTML,SCSS, procesador SASS, servidor local,. Están creadas con **node y gulp**.
 
 En el Kit hay 3 tipos de ficheros y carpetas:
 
@@ -16,9 +11,22 @@ En el Kit hay 3 tipos de ficheros y carpetas:
 - La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
 - Las carpetas `public/` y `docs/`, que son generadas automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/`, los procesa y los genera dentro de `public/` y `docs/`.
 
-## Guía de inicio rápido
+## Desarrollo proyecto
+He desarrollado el proyecto utilizando html y scss.
+He trasladado proyecto a los partial y he intentado escribir con sass.
 
-> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) para trabajar con este Starter Kit:
+## Composición proyecto
+Mi proyecto está dividido en varias secciones; header, main, content__grid y footer.
+
+## Pendiente de finalizar por desarrollar:
+-Estructura sass.
+-Sección content__grid en versión tablet y versión escritorio.
+-Pulir detalles de los iconos del header.
+
+> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) 
+
+
+
 
 ### Pasos a seguir cada vez que queremos arrancar un proyecto desde cero:
 

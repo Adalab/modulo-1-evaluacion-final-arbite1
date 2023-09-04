@@ -292,12 +292,21 @@
     grid-template-columns: 1fr 1fr 1fr; }
   .grid__title1 {
     grid-column: 2/4; }
-  .grid__title2 {
+  .grid_title2 {
     grid-column-start: 2;
     grid-column-end: 4; }
   .grid_box1 {
     grid-column-start: 1;
     grid-column-end: 1; }
+  .grid_pbox1 {
+    padding-left: 5.6rem; }
+  .grid_pbox2 {
+    padding-left: 5.6rem; }
+  .grid_pbox3 {
+    padding-left: 5.6rem; }
+  .grid__btn {
+    grid-column-start: 2;
+    grid-column-end: 3; }
   .footer {
     display: flex;
     padding-bottom: 7.5rem; }
